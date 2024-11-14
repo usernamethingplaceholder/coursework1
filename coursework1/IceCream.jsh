@@ -2,9 +2,9 @@ void main(){
 	Scanner scanner = new Scanner(System.in);
 	String id = "33003642";
 
-	double vanilla = Double.parseDouble(id.substring(2, 4));	// 00
+	double vanilla = Double.parseDouble(id.substring(6, 8));	// 00
 	double chocolate = Double.parseDouble(id.substring(4, 6));	// 36
-	double strawberry = Double.parseDouble(id.substring(6, 8));	// 42
+	double strawberry = Double.parseDouble(id.substring(2, 4));	// 42
 	double price = 0;
 
 	System.out.println("Would you like (v)anilla, (c)hocolate or (s)trawberry?");
