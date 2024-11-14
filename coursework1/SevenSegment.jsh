@@ -33,5 +33,3 @@ void display(int n) {
 		System.out.println(output);	// prints each time so i don't have to store each line
 	}
 }
-
-display(28);

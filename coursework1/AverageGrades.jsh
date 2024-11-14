@@ -12,8 +12,3 @@ int[] average_grades(int grades[][], int weights[])	{
 	}
 	return weightedGrades;
 }
-
-int[] results = average_grades(new int[][]{{51, 83, 28}, {0, 38, 95}}, new int[]{30, 40, 30});
-for (int result : results) {
-    System.out.println(result);
-}
